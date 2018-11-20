@@ -26,8 +26,8 @@ public class Verification extends HttpServlet {
     @Override
     public void init() {
         String url = "jdbc:mysql://db.ct5.xyz:3306/user";
-        String usrname = "jdbc";
-        String pass = "jdbcjdbc";
+        String usrname = "rua";
+        String pass = "rua";
         try{
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection(url, usrname, pass);
